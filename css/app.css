@@ -1,0 +1,187 @@
+
+@media (max-device-width : 480px) {
+  #mainLogoImage{
+    display:block;
+    height:auto;
+    width: 50%;
+    margin: auto;
+  }
+
+  .mainText{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    color: #424242;
+  }
+
+  .sponserText {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+    color: #888888;
+  }
+
+  .heading{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    color: #fff;
+  }
+
+  .subheading{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    color: #fff;
+  }
+
+  .heading2{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+    color: #fff;
+  }
+
+  .info{
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 1em;
+    color: #bcbcbc;
+  }
+
+}
+@media (min-device-width : 480px) {
+  #mainLogoImage{
+    display:block;
+    height:20%;
+    width: auto;
+    margin:auto;
+  }
+
+  .mainText{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    color: #424242;
+  }
+
+  .sponserText {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+    color: #888888;
+  }
+
+  .heading{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 4em;
+    color: #fff;
+  }
+
+  .subheading{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    color: #fff;
+  }
+
+  .heading2{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+    color: #fff;
+  }
+
+  .info{
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 1.1em;
+    color: #bcbcbc;
+  }
+
+}
+
+.organizers .info{
+  font-family: 'Libre Baskerville', sans-serif;
+  font-size: 0.9em;
+  color: #bcbcbc;
+  padding: 20px;
+}
+.degreeinfo{
+  font-size: 0.7em;
+}
+@media (max-device-width : 480px){  .largeShow { display: none;} .mobileShow { display: inline;}}
+@media (min-device-width : 480px){  .largeShow { display: inline;} .mobileShow { display: none;}}
+
+.sponserLogos{
+  margin:auto;
+}
+
+.sponserLogos img{
+  height: 20%;
+  width: 60%;
+}
+
+.imageRight{
+  float:right;
+}
+
+.imageLeft{
+  float: left;
+}
+
+.info a{
+  text-decoration:none;
+  color: white;
+}
+
+.info a:hover{
+  color: #FF9900;
+}
+
+hr.fancy-line {
+    border: 0;
+    height: 1px;
+    position: relative;
+    margin: 0.5em 0; /* Keep other elements away from pseudo elements*/
+}
+hr.fancy-line:before {
+    top: -0.5em;
+    height: 1em;
+}
+hr.fancy-line:after {
+    content:'';
+    height: 0.5em;   /* half the height of :before */
+    top: 1px;        /* height of hr*/
+}
+
+hr.fancy-line:before, hr.fancy-line:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+}
+
+hr.fancy-line, hr.fancy-line:before {
+    background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 75%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 75%, color-stop(0%,rgba(0,0,0,0.1)), color-stop(75%,rgba(0,0,0,0)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 75%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 75%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 75%);
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 75%);
+}
+
+
+.my-gallery {
+  width: 100%;
+  float: left;
+}
+.my-gallery img {
+  width: 100%;
+  height: auto;
+}
+.my-gallery figure {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 150px;
+}
+.my-gallery figcaption {
+  display: none;
+}
